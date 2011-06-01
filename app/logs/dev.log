@@ -1,0 +1,804 @@
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 21:35:36] security.DEBUG: Populated SecurityContext with an anonymous Token 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 21:35:36] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 21:35:38] security.DEBUG: Populated SecurityContext with an anonymous Token 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 21:35:38] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:35:39] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 21:42:21] security.DEBUG: Populated SecurityContext with an anonymous Token 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 21:42:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:23] security.DEBUG: Populated SecurityContext with an anonymous Token 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:23] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:28] security.DEBUG: Populated SecurityContext with an anonymous Token 
+[2011-06-01 22:14:28] security.DEBUG: Calling Authentication entry point 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:14:28] event.DEBUG: Listener "Symfony\Component\Security\Http\Firewall\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:14:28] event.DEBUG: Listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener" was not called for event "onCoreException". 
+[2011-06-01 22:14:28] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" was not called for event "onCoreException". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:28] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:48] security.DEBUG: Basic Authentication Authorization header found for user "ryan" 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:14:48] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:14:48] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:48] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:49] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:14:49] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:14:49] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:49] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:49] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:52] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:14:52] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:14:52] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:14:52] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:14:52] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:52] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:53] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:14:53] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:14:53] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:53] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:59] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:14:59] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:14:59] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:14:59] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:14:59] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:14:59] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:14:59] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:14:59] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:14:59] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:14:59] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:04] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:04] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:04] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:04] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:04] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:07] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:07] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:07] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:15:07] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:15:07] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:07] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:08] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:08] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:08] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:08] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:08] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:24] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:15:25] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:25] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:25] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:25] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:25] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:31] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:31] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:31] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:15:32] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:15:32] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:15:32] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:15:32] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:15:32] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:15:32] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:15:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:17:31] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:17:31] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:17:31] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:17:31] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:17:31] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:17:31] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:17:32] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:17:32] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:17:32] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:17:32] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:17:32] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:23:03] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:23:03] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:23:03] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:23:03] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:03] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:23:10] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:23:10] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:23:10] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:23:10] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:23:10] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:23:10] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:23:11] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:23:11] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:23:11] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:23:11] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:23:11] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:36:15] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:36:15] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:36:15] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:36:15] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:36:15] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:36:16] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:36:16] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:38:18] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:38:18] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:38:18] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:38:18] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:38:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:38:21] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:38:21] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:38:21] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:38:21] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:38:21] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:39:53] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:39:53] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:39:53] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:39:53] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:39:53] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:39:56] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:39:56] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:39:56] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:39:56] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:39:56] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:40:17] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:40:17] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:40:17] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:40:17] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:40:17] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:40:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:40:18] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:40:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:40:37] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:40:37] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:40:37] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:40:37] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:40:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:41:36] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:41:36] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:41:36] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:41:36] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:41:36] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:36] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:41:37] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:41:37] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:41:37] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:41:37] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:41:37] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:45:25] security.DEBUG: Read SecurityContext from the session 
+[2011-06-01 22:45:25] security.DEBUG: Reloading user from user provider. 
+[2011-06-01 22:45:25] security.DEBUG: Username "ryan" was reloaded from user provider. 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\Security\Http\Firewall\ExceptionListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\RequestListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Bundle\AsseticBundle\Listener\RequestListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreRequest" to listener "Symfony\Component\Security\Http\Firewall". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RequestDataCollector". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ControllerAnnotationParser". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\Controller\ParamConverterListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "Sensio\Bundle\FrameworkExtraBundle\View\AnnotationTemplateListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "Acme\DemoBundle\ControllerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreController" to listener "JMS\SecurityExtraBundle\Controller\ControllerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreException" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener". 
+[2011-06-01 22:45:25] event.DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener" stopped propagation of the event "onCoreException". 
+[2011-06-01 22:45:25] security.DEBUG: Write SecurityContext in the session 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\Security\Http\Firewall\ContextListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Component\HttpKernel\ResponseListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\SecurityBundle\ResponseListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bridge\Monolog\Handler\FirePHPHandler". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Sensio\Bundle\FrameworkExtraBundle\Cache\AnnotationCacheListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener". 
+[2011-06-01 22:45:25] event.DEBUG: Notified event "onCoreResponse" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener". 

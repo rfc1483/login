@@ -1,0 +1,2 @@
+homepage:
+  resource: "@AcmeLoginBundle/Resources/config/routing.yml"
