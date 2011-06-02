@@ -14,7 +14,10 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
 {
     static private $declaredRouteNames = array(
        'homepage' => true,
-       'admin' => true,
+       'public' => true,
+       'secured' => true,
+       'login' => true,
+       'login_check' => true,
        '_welcome' => true,
        '_demo_login' => true,
        '_security_check' => true,
@@ -63,9 +66,24 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
         return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/',  ),));
     }
 
-    private function getadminRouteInfo()
+    private function getpublicRouteInfo()
     {
-        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\AdminController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/admin/',  ),));
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::publicAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/public/',  ),));
+    }
+
+    private function getsecuredRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/',  ),));
+    }
+
+    private function getloginRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::loginAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/login',  ),));
+    }
+
+    private function getlogin_checkRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/login_check',  ),));
     }
 
     private function get_welcomeRouteInfo()

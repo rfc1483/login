@@ -1,9 +1,12 @@
 <?php
 
-namespace Acme\SecurityBundle\Controller;
+namespace Acme\LoginBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Security\Core\SecurityContext;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use JMS\SecurityExtraBundle\Annotation\Secure;
 
 class SecurityController extends Controller {
 
@@ -15,11 +18,15 @@ class SecurityController extends Controller {
             $error = $this->get('request')->getSession()->get(SecurityContext::AUTHENTICATION_ERROR);
         }
 
-        return $this->render('AcmeSecurityBundle:Security:login.html.twig', array(
+        return $this->render('AcmeLoginBundle:Security:login.html.twig', array(
             // last username entered by the user
             'last_username' => $this->get('request')->getSession()->get(SecurityContext::LAST_USERNAME),
             'error' => $error,
         ));
+    }
+
+     public function securityCheckAction() {
+        // The security layer will intercept this request
     }
 
 }
