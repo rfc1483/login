@@ -58,6 +58,11 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',  '_route' => 'login_check',);
         }
 
+        // logout
+        if ($pathinfo === '/secured/logout') {
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::logoutAction',  '_route' => 'logout',);
+        }
+
         // _welcome
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

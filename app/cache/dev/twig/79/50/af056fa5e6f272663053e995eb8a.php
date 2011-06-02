@@ -9,6 +9,8 @@ class __TwigTemplate_7950af056fa5e6f272663053e995eb8a extends Twig_Template
 
         $this->blocks = array(
             'title' => array($this, 'block_title'),
+            'content_header_more' => array($this, 'block_content_header_more'),
+            'content_header' => array($this, 'block_content_header'),
             'content' => array($this, 'block_content'),
         );
     }
@@ -53,26 +55,31 @@ class __TwigTemplate_7950af056fa5e6f272663053e995eb8a extends Twig_Template
             ";
         }
         // line 19
+        echo "            
+            ";
+        // line 20
+        $this->displayBlock('content_header', $context, $blocks);
+        // line 29
         echo "
             <div class=\"symfony-content\">
                 ";
-        // line 21
+        // line 31
         $this->displayBlock('content', $context, $blocks);
-        // line 23
+        // line 33
         echo "            </div>
 
             ";
-        // line 25
+        // line 35
         if (twig_test_defined("code", $context)) {
-            // line 26
+            // line 36
             echo "            <h2>Code behind this page</h2>
             <div class=\"symfony-content\">";
-            // line 27
+            // line 37
             echo $this->getContext($context, 'code');
             echo "</div>
             ";
         }
-        // line 29
+        // line 39
         echo "        </div>
     </body>
 </html>
@@ -85,10 +92,35 @@ class __TwigTemplate_7950af056fa5e6f272663053e995eb8a extends Twig_Template
         echo "Demo Bundle";
     }
 
-    // line 21
+    // line 22
+    public function block_content_header_more($context, array $blocks = array())
+    {
+        // line 23
+        echo "                        <li><a href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("_demo"), "html");
+        echo "\">Demo Home</a></li>
+                    ";
+    }
+
+    // line 20
+    public function block_content_header($context, array $blocks = array())
+    {
+        // line 21
+        echo "                <ul id=\"menu\">
+                    ";
+        // line 22
+        $this->displayBlock('content_header_more', $context, $blocks);
+        // line 25
+        echo "                </ul>
+
+                <div style=\"clear: both\"></div>
+            ";
+    }
+
+    // line 31
     public function block_content($context, array $blocks = array())
     {
-        // line 22
+        // line 32
         echo "                ";
     }
 

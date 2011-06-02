@@ -18,6 +18,7 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
        'secured' => true,
        'login' => true,
        'login_check' => true,
+       'logout' => true,
        '_welcome' => true,
        '_demo_login' => true,
        '_security_check' => true,
@@ -84,6 +85,11 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
     private function getlogin_checkRouteInfo()
     {
         return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/login_check',  ),));
+    }
+
+    private function getlogoutRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::logoutAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/logout',  ),));
     }
 
     private function get_welcomeRouteInfo()

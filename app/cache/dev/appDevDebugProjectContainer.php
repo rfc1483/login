@@ -1331,9 +1331,12 @@ class appDevDebugProjectContainer extends Container
         $e = new \Symfony\Component\HttpFoundation\RequestMatcher('^/secured');
 
         $f = new \Symfony\Component\Security\Http\AccessMap();
-        $f->add($e, array(0 => 'ROLE_ADMIN'), NULL);
+        $f->add($e, array(0 => 'ROLE_USER'), NULL);
 
-        return $this->services['security.firewall.map.context.secured_area'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($f, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => $this->get('security.user.provider.concrete.in_memory')), 'secured_area', $a, $c), 2 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($b, $d, new \Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy('migrate'), 'secured_area', array('check_path' => '/secured/login_check', 'login_path' => '/secured/login', 'use_forward' => false, 'always_use_default_target_path' => false, 'default_target_path' => '/', 'target_path_parameter' => '_target_path', 'use_referer' => false, 'failure_path' => NULL, 'failure_forward' => false, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'intention' => 'authenticate', 'post_only' => true), NULL, NULL, $a, $c), 3 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $f, $d, $a)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($this->get('http_kernel'), '/secured/login', false), NULL, NULL, $a));
+        $g = new \Symfony\Component\Security\Http\Firewall\LogoutListener($b, '/secured/logout', '/', NULL);
+        $g->addHandler(new \Symfony\Component\Security\Http\Logout\SessionLogoutHandler());
+
+        return $this->services['security.firewall.map.context.secured_area'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($f, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(), $a), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($b, array(0 => $this->get('security.user.provider.concrete.in_memory')), 'secured_area', $a, $c), 2 => $g, 3 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($b, $d, new \Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy('migrate'), 'secured_area', array('check_path' => '/secured/login_check', 'login_path' => '/secured/login', 'always_use_default_target_path' => false, 'default_target_path' => '/secured/', 'target_path_parameter' => 'test', 'use_referer' => false, 'failure_path' => NULL, 'use_forward' => false, 'failure_forward' => false, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'intention' => 'authenticate', 'post_only' => true), NULL, NULL, $a, $c), 4 => new \Symfony\Component\Security\Http\Firewall\AccessListener($b, $this->get('security.access.decision_manager'), $f, $d, $a)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($b, $this->get('security.authentication.trust_resolver'), new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($this->get('http_kernel'), '/secured/login', false), NULL, NULL, $a));
     }
 
     /**
@@ -2579,7 +2582,7 @@ class appDevDebugProjectContainer extends Container
             'assetic.use_controller' => true,
             'assetic.read_from' => 'C:\\xampp\\htdocs\\login\\app/../web',
             'assetic.write_to' => 'C:\\xampp\\htdocs\\login\\app/../web',
-            'assetic.java.bin' => 'C:\\WINDOWS\\system32\\java.EXE',
+            'assetic.java.bin' => 'C:\\Windows\\system32\\java.EXE',
             'assetic.node.bin' => '/usr/bin/node',
             'assetic.sass.bin' => '/usr/bin/sass',
             'assetic.filter.cssrewrite.class' => 'Assetic\\Filter\\CssRewriteFilter',

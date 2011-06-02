@@ -9,6 +9,14 @@ security:
           form_login:
             check_path: /secured/login_check
             login_path: /secured/login
+            failure_path:                   null
+            always_use_default_target_path: false
+            default_target_path:            /secured/
+            target_path_parameter:          test
+            use_referer:                    false 
+          logout:
+            path:   /secured/logout
+            target: /
 #            pattern:    ^/
 #            anonymous: ~
 #            form_login:
@@ -16,7 +24,7 @@ security:
 #                check_path:  /login_check
 
     access_control:
-        - { path: ^/secured, roles: ROLE_ADMIN }
+        - { path: ^/secured, roles: ROLE_USER }
 
     providers:
         in_memory:

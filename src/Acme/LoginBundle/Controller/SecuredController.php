@@ -27,5 +27,13 @@ class SecuredController extends Controller {
     public function securityCheckAction() {
         // The security layer will intercept this request
     }
+    
+    public function indexAction() {
+        return $this->render('AcmeLoginBundle:Secured:index.html.twig');
+    }
+    
+    public function logoutAction() {
+        // The security layer will intercept this request
+    }
 
 }
