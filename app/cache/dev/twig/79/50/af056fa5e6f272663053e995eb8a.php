@@ -97,8 +97,8 @@ class __TwigTemplate_7950af056fa5e6f272663053e995eb8a extends Twig_Template
     {
         // line 23
         echo "                        <li><a href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("_demo"), "html");
-        echo "\">Demo Home</a></li>
+        echo twig_escape_filter($this->env, $this->env->getExtension('routing')->getPath("homepage"), "html");
+        echo "\">Home</a></li>
                     ";
     }
 
