@@ -10,22 +10,6 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class User implements UserInterface {
 
-    /**
-     * @ORM\Column(type="string", length="255")
-     */
-    protected $username;
-
-    // ...
-}
-
-namespace Acme\FormBundle\Entity;
-
-use Doctrine\ORM\Mapping as ORM;
-
-/**
- * @ORM\Entity(repositoryClass="Acme\FormBundle\Repository\UserRepository")
- */
-class Users {
 
     /**
      * @ORM\Id
@@ -38,6 +22,10 @@ class Users {
      */
     protected $name;
 
+    /**
+     * @ORM\Column(type="string", length="255")
+     */
+    protected $username;
 
 
 
@@ -70,4 +58,16 @@ class Users {
     {
         return $this->name;
     }
+}
+
+namespace Acme\FormBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity(repositoryClass="Acme\FormBundle\Repository\UserRepository")
+ */
+class Users {
+
+
 }

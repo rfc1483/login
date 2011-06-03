@@ -4,5 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
         <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Controller/SecuredController.php</file>
         <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/config/routing.yml</file>
+        <file>file:/C:/xampp/htdocs/login/app/config/security.yml</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/views/Secured/index.html.twig</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/views/Secured/layout.html.twig</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/views/Security/login.html.twig</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/views/layout.html.twig</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Resources/views/Secured/login.html.twig</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Controller/DefaultController.php</file>
+        <file>file:/C:/xampp/htdocs/login/app/config/routing.yml</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Entity/User.php</file>
+        <file>file:/C:/xampp/htdocs/login/vendor/symfony/src/Symfony/Component/Security/Core/User/UserInterface.php</file>
     </open-files>
 </project-private>

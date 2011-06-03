@@ -34,3 +34,4 @@ security:
 
     encoders:
         Symfony\Component\Security\Core\User\User: plaintext
+        
