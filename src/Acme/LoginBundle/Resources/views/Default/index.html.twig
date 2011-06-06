@@ -1,1 +1,13 @@
-Hello!
+{% extends "AcmeLoginBundle:Default:layout.html.twig" %}
+
+{% block title "Symfony - Demos" %}
+
+
+{% block content %}
+    <h1>Menu</h1>
+    <ul id="demo-list">
+        <li><a href="{{ path('public') }}">Public zone</a></li>
+        <li><a href="{{ path('secured') }}">Secured zone</a></li>
+        <li><a href="{{ path('login') }}">Login</a></li>
+    </ul>
+{% endblock %}

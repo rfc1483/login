@@ -1,3 +1,23 @@
-#homepage:
-#    pattern:  /
-#    defaults: { _controller: AcmeLoginBundle:Default:index }
+homepage:
+    pattern:  /
+    defaults: { _controller: AcmeLoginBundle:Default:index }
+
+public:
+  pattern: /public/
+  defaults: { _controller: AcmeLoginBundle:Default:public }
+
+secured:
+    pattern:  /secured/
+    defaults: { _controller: AcmeLoginBundle:Secured:index }
+    
+login:
+    pattern:  /secured/login
+    defaults: { _controller: AcmeLoginBundle:Secured:login }
+
+login_check:
+    pattern:   /secured/login_check
+    defaults: { _controller: AcmeLoginBundle:Secured:securityCheck }
+    
+logout:
+  pattern: /secured/logout
+  defaults: { _controller: AcmeLoginBundle:Secured:logout }

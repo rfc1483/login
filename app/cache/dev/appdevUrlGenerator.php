@@ -13,7 +13,12 @@ use Symfony\Component\Routing\Exception\RouteNotFoundException;
 class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerator
 {
     static private $declaredRouteNames = array(
-       'foo_bar_post_index' => true,
+       'homepage' => true,
+       'public' => true,
+       'secured' => true,
+       'login' => true,
+       'login_check' => true,
+       'logout' => true,
        '_welcome' => true,
        '_demo_login' => true,
        '_security_check' => true,
@@ -57,9 +62,34 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
         return $this->doGenerate($variables, $defaults, $requirements, $tokens, $parameters, $name, $absolute);
     }
 
-    private function getfoo_bar_post_indexRouteInfo()
+    private function gethomepageRouteInfo()
     {
-        return array(array (), array (  '_controller' => 'Foo\\BarBundle\\Controller\\PostController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/',  ),));
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/',  ),));
+    }
+
+    private function getpublicRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::publicAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/public/',  ),));
+    }
+
+    private function getsecuredRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::indexAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/',  ),));
+    }
+
+    private function getloginRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::loginAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/login',  ),));
+    }
+
+    private function getlogin_checkRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/login_check',  ),));
+    }
+
+    private function getlogoutRouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::logoutAction',), array (), array (  0 =>   array (    0 => 'text',    1 => '/secured/logout',  ),));
     }
 
     private function get_welcomeRouteInfo()

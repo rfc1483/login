@@ -24,12 +24,43 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
     {
         $allow = array();
 
-        // foo_bar_post_index
+        // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'foo_bar_post_index');
+                return $this->redirect($pathinfo.'/', 'homepage');
             }
-            return array (  '_controller' => 'Foo\\BarBundle\\Controller\\PostController::indexAction',  '_route' => 'foo_bar_post_index',);
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
+        }
+
+        // public
+        if (rtrim($pathinfo, '/') === '/public') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'public');
+            }
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::publicAction',  '_route' => 'public',);
+        }
+
+        // secured
+        if (rtrim($pathinfo, '/') === '/secured') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'secured');
+            }
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::indexAction',  '_route' => 'secured',);
+        }
+
+        // login
+        if ($pathinfo === '/secured/login') {
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::loginAction',  '_route' => 'login',);
+        }
+
+        // login_check
+        if ($pathinfo === '/secured/login_check') {
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',  '_route' => 'login_check',);
+        }
+
+        // logout
+        if ($pathinfo === '/secured/logout') {
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::logoutAction',  '_route' => 'logout',);
         }
 
         // _welcome

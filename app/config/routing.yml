@@ -1,3 +1,2 @@
-foo:
-  resource: "@FooBarBundle/Controller/PostController.php"
-  type: annotation
+homepage:
+  resource: "@AcmeLoginBundle/Resources/config/routing.yml"
