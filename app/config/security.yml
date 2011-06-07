@@ -5,59 +5,72 @@ security:
             encode-as-base64: true
             iterations: 10
 
-    role_hierarchy:
-        ROLE_ADMIN:       ROLE_USER
-        ROLE_SUPER_ADMIN: [ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
-
-#    providers:
-#        in_memory:
-#            users:
-#                user:  { password: userpass, roles: [ 'ROLE_USER' ] }
-#                admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
     providers:
-      main:
-        entity: { class: AcmeLoginBundle:User, property: username }
+        main:
+            entity: { class: AcmeLoginBundle:User, property: username }
 
     firewalls:
-        login:
-          pattern: ^/secured/login$
-          security: false
-          
-        secured_area:
-          pattern: ^/secured/
-          form_login:
-            check_path: /secured/login_check
-            login_path: /secured/login
-            failure_path:                   null
-            always_use_default_target_path: false
-            default_target_path:            /secured/
-            target_path_parameter:          test
-            use_referer:                    false 
-          security: true
-          logout:
-            path:   /secured/logout
-            target: /
+        main:
+            pattern: /.*
+            form_login:
+                check_path: /login_check
+                login_path: /login
+            logout: true
+            security: true
+            anonymous: true
 
     access_control:
-        - { path: ^/secured, role: ROLE_USER }
-        
+        - { path: /admin/.*, role: ROLE_USER }
+        - { path: /.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
+
+
 #security:
 #    encoders:
-#        Company\BlogBundle\Entity\User:
+#        Acme\LoginBundle\Entity\User:
 #            algorithm: sha512
 #            encode-as-base64: true
 #            iterations: 10
 #
+#    role_hierarchy:
+#        ROLE_ADMIN:       ROLE_USER
+#        ROLE_SUPER_ADMIN: [ROLE_USER, ROLE_ADMIN, ROLE_ALLOWED_TO_SWITCH]
+#
+#    providers:
+#      main:
+#        entity: { class: AcmeLoginBundle:User, property: username }
+#
 #    firewalls:
+#        login:
+#          pattern: /.*
+#          security: false
+#          
 #        main:
-#            pattern: /.*
-#            form_login:
-#                check_path: /login_check
-#                login_path: /login
-#            logout: true
-#            security: true
-#            anonymous: true
+#          pattern: /.*
+#          form_login:
+#            check_path: /login_check
+#            login_path: /login
+#          security: true
+#          logout: true
+#          anonymous: true
 #
 #    access_control:
 #        - { path: /admin/.*, role: ROLE_ADMIN }
-#        - { path: /.*, role: IS_AUTHENTICATED_ANONYMOUSLY }
+#        - { path: /.*, role: IS_AUTHENTICATED_ANONYMOUSLY }   
+        
+#        secured_area:
+#          pattern: /.*
+#          form_login:
+#            check_path: /secured/login_check
+#            login_path: /secured/login
+#            failure_path:                   null
+#            always_use_default_target_path: false
+#            default_target_path:            /secured/
+#            target_path_parameter:          test
+#            use_referer:                    false 
+#          security: true
+#          logout:
+#            path:   /secured/logout
+#            target: /
+#
+#    access_control:
+#        - { path: ^/secured, role: ROLE_USER }       

@@ -16,6 +16,12 @@ class FixtureLoader implements FixtureInterface {
 
         $manager->persist($role);
 
+        // create the ROLE_USER role
+        $role = new Role();
+        $role->setName('ROLE_USER');
+
+        $manager->persist($role);
+
         // create a user
         $user = new User();
         $user->setUsername('john.doe');

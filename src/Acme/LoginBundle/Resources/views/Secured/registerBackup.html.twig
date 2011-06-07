@@ -1,0 +1,11 @@
+<form action="{{ path('register') }}" method="post" {{ form_enctype(form) }}>
+    {{ form_errors(form) }}
+    <div>
+        {{ form_label(form.username) }}
+        {{ form_errors(form.username) }}
+        {{ form_widget(form.username, { 'attr': {'username': 'foo'} }) }}
+    </div>
+    {{ form_rest(form) }}
+
+    <input type="submit" />
+</form>

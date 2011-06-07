@@ -40,27 +40,43 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\DefaultController::publicAction',  '_route' => 'public',);
         }
 
-        // secured
-        if (rtrim($pathinfo, '/') === '/secured') {
+        // admin
+        if (rtrim($pathinfo, '/') === '/admin') {
             if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'secured');
+                return $this->redirect($pathinfo.'/', 'admin');
             }
-            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::indexAction',  '_route' => 'secured',);
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::indexAction',  '_route' => 'admin',);
         }
 
         // login
-        if ($pathinfo === '/secured/login') {
+        if ($pathinfo === '/login') {
             return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::loginAction',  '_route' => 'login',);
         }
 
         // login_check
-        if ($pathinfo === '/secured/login_check') {
-            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::securityCheckAction',  '_route' => 'login_check',);
+        if ($pathinfo === '/login_check') {
+            return array('_route' => 'login_check');
         }
 
         // logout
-        if ($pathinfo === '/secured/logout') {
-            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::logoutAction',  '_route' => 'logout',);
+        if ($pathinfo === '/logout') {
+            return array('_route' => 'logout');
+        }
+
+        // register
+        if (rtrim($pathinfo, '/') === '/register') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'register');
+            }
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::registerAction',  '_route' => 'register',);
+        }
+
+        // success
+        if (rtrim($pathinfo, '/') === '/success') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'success');
+            }
+            return array (  '_controller' => 'Acme\\LoginBundle\\Controller\\SecuredController::successAction',  '_route' => 'success',);
         }
 
         // _welcome

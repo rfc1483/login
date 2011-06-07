@@ -6,18 +6,24 @@ public:
   pattern: /public/
   defaults: { _controller: AcmeLoginBundle:Default:public }
 
-secured:
-    pattern:  /secured/
-    defaults: { _controller: AcmeLoginBundle:Secured:index }
+admin:
+  pattern: /admin/
+  defaults: { _controller: AcmeLoginBundle:Secured:index }
     
 login:
-    pattern:  /secured/login
+    pattern:  /login
     defaults: { _controller: AcmeLoginBundle:Secured:login }
 
 login_check:
-    pattern:   /secured/login_check
-    defaults: { _controller: AcmeLoginBundle:Secured:securityCheck }
+    pattern:   /login_check
     
 logout:
-  pattern: /secured/logout
-  defaults: { _controller: AcmeLoginBundle:Secured:logout }
+  pattern: /logout
+  
+register:
+  pattern: /register/
+  defaults: { _controller: AcmeLoginBundle:Secured:register }
+
+success:
+  pattern: /success/
+  defaults: { _controller: AcmeLoginBundle:Secured:success }
