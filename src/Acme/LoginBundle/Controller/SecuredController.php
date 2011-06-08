@@ -41,11 +41,8 @@ class SecuredController extends Controller {
             if ($form->isValid()) {
                 $manager = $this->get('doctrine')->getEntityManager();
                 $role = new Role();
-                $role = $manager->getRepository('AcmeLoginBundle:Role')->findOneBy(array('name' => 'ROLE_USER'));
-                // create the ROLE_USER role
-
-//                $role->setName('ROLE_USER');
-//                $manager->persist($role);
+                $role = $manager->getRepository('AcmeLoginBundle:Role')->findOneByName('ROLE_USER');
+                
                 // Assign salt to the user
                 $user->setSalt(md5(time()));
 

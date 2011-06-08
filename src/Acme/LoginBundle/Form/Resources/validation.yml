@@ -1,0 +1,4 @@
+Acme\FormBundle\Entity\Users:
+  properties:
+    username:
+      - NotBlank: ~
