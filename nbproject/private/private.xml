@@ -2,7 +2,7 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Controller/SecuredController.php</file>
-        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Entity/Role.php</file>
+        <file>file:/C:/xampp/htdocs/login/src/Acme/LoginBundle/Entity/User.php</file>
+        <file>file:/C:/xampp/htdocs/login/app/autoload.php</file>
     </open-files>
 </project-private>
